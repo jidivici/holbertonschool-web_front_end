@@ -336,7 +336,8 @@ a[href]:active {
 
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar-menu {
@@ -375,7 +376,7 @@ a[href]:active {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 2rem;
+  height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
